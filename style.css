@@ -48,3 +48,98 @@
 }
 
 /* end navbar */
+
+
+/* main section start with searchbar */
+
+.main-banner {
+    max-width: 81%;
+    height: 37.5rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    background: url('Images/Group\ 13\ \(1\)\ \(1\).png') no-repeat center center;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.search-container {
+
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.search-container h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.intro-text {
+    margin-bottom: 30px;
+}
+
+.search-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-inputs input,
+.search-inputs select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.search-inputs button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* responsive for mobile */
+
+@media screen and (max-width: 600px) {
+
+
+    .navbar {
+        margin: 30px 20px;
+    }
+
+    .main-banner {
+        max-width: 95%;
+    }
+
+
+
+
+    .search-inputs {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 23px;
+
+    }
+
+    .navbar-title {
+        font-size: 23px;
+    }
+}
