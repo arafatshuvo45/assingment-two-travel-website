@@ -89,6 +89,15 @@
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
+
+
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
 }
 
 .search-inputs input,
@@ -97,6 +106,9 @@
     border: none;
     border-radius: 5px;
     font-size: 1em;
+
+    width: 180px;
+    height: 60px;
 }
 
 .search-inputs button {
@@ -107,6 +119,8 @@
     color: white;
     cursor: pointer;
     font-size: 1em;
+    width: 180px;
+    height: 60px;
 }
 
 /* responsive for mobile */
@@ -114,12 +128,13 @@
 @media screen and (max-width: 600px) {
 
 
+
     .navbar {
-        margin: 30px 20px;
+        margin: 30px 40px;
     }
 
     .main-banner {
-        max-width: 95%;
+        max-width: 90%;
     }
 
 
@@ -142,5 +157,12 @@
 
     .navbar-title {
         font-size: 23px;
+    }
+
+    .search-inputs input,
+    .search-inputs select,
+    .search-inputs button {
+        width: 400px;
+        height: 50px;
     }
 }
