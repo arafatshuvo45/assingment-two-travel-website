@@ -129,8 +129,6 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #FF5400;
-    ;
     color: white;
     cursor: pointer;
     font-size: 1em;
@@ -147,21 +145,8 @@
     max-width: 80%;
     margin: 100px auto;
 
-    border: 3px solid salmon;
 }
 
-
-
-.tours-text {
-    /* width: 577px; */
-    border: 1px solid salmon;
-
-
-}
-
-.tours-image {
-    border: 1px solid red;
-}
 
 .tour-title {
     color: #131318;
@@ -170,7 +155,7 @@
     margin-bottom: 40px;
 }
 
-fg .tour-description {
+.tour-description {
 
     margin: 24px 0px;
     font-size: 16px;
@@ -189,10 +174,33 @@ fg .tour-description {
     margin: 0 auto;
 }
 
+
+.destination-head {
+    width: 1440px;
+    align-items: center;
+    text-align: center;
+}
+
+.destination-head>h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-head>p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px auto;
+}
+
+
 .maldiv-indo>div {
     width: 48%;
     height: 300px;
-    border: 4px salmon solid;
     align-items: center;
 
 
@@ -203,7 +211,6 @@ fg .tour-description {
     justify-content: space-between;
     gap: 10px;
     align-items: center;
-    border: 3px solid salmon;
     padding: 0;
     margin: 30px auto 150px auto;
     box-sizing: border-box;
@@ -231,7 +238,6 @@ fg .tour-description {
 .srilanka-north-kashmir>div {
 
     height: 286px;
-    border: 4px salmon solid;
     align-items: center;
 
 }
@@ -264,7 +270,6 @@ fg .tour-description {
     justify-content: space-between;
     gap: 10px;
     align-items: center;
-    border: 3px solid salmon;
     padding: 0;
     margin: 150px auto 150px auto;
     box-sizing: border-box;
@@ -272,7 +277,6 @@ fg .tour-description {
 
 .bangladesh>div {
     height: 286px;
-    border: 4px salmon solid;
     align-items: center;
     width: 48%;
 
