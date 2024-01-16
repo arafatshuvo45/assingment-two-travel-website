@@ -75,3 +75,42 @@
 
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .maldiv-indo {
+        flex-direction: column;
+        margin: 20px auto;
+        gap: 30px;
+    }
+
+    .srilanka-north-kashmir {
+        flex-direction: column;
+        gap: 100px;
+        margin: 30px auto;
+
+    }
+
+    .bandladesh {
+        flex-direction: column;
+        margin: 100px auto;
+        gap: 30px;
+    }
+
+    .destination-head {
+        width: auto;
+    }
+
+    .destination-head>p {
+        width: auto;
+    }
+
+
+
+    .maldiv-indo>div {
+        width: 100%;
+        height: 250px;
+        align-items: center;
+    }
+
+}
