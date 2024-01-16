@@ -38,7 +38,7 @@
     /* tours section */
     .tours {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
 
 
     }
@@ -51,18 +51,19 @@
     }
 
     .tour-description {
-        width: 335px;
+        /* width: 335px; */
         font-size: 14px;
     }
 
     .tour-list-item>li {
-        width: 335px;
+        /* width: 335px; */
         font-size: 14px;
+        border: 1px solid salmon;
 
     }
 
     .tour-description {
-        width: 335px;
+        /* width: 335px; */
         font-size: 14px;
 
     }
@@ -70,7 +71,6 @@
     .tours-image>img {
         width: 100%;
         /* height: 342px; */
-        flex-shrink: 0;
     }
 
 
