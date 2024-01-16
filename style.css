@@ -184,8 +184,243 @@ fg .tour-description {
 
 }
 
+.destination {
+    width: 80%;
+    margin: 0 auto;
+}
 
-/* destination */
+.maldiv-indo>div {
+    width: 48%;
+    height: 300px;
+    border: 4px salmon solid;
+    align-items: center;
+
+
+}
+
+.maldiv-indo {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border: 3px solid salmon;
+    padding: 0;
+    margin: 30px auto 150px auto;
+    box-sizing: border-box;
+}
+
+.item>img {
+    background-size: cover;
+
+}
+
+.item>img {
+    width: 100%;
+}
+
+.item-1 {
+    flex-grow: 1;
+}
+
+.item-2 {
+    flex-grow: 1;
+}
+
+/* done done done done done done done done done  */
+
+.srilanka-north-kashmir>div {
+
+    height: 286px;
+    border: 4px salmon solid;
+    align-items: center;
+
+}
+
+.srilanka-north-kashmir {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.item-3 {
+    flex-grow: 1;
+}
+
+.item-4 {
+    flex-grow: 1;
+}
+
+.item-5 {
+    flex-grow: 1;
+}
+
+.srilanka-north-kashmir>div>img {
+    height: 350px;
+}
+
+.bandladesh {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border: 3px solid salmon;
+    padding: 0;
+    margin: 150px auto 150px auto;
+    box-sizing: border-box;
+}
+
+.bangladesh>div {
+    height: 286px;
+    border: 4px salmon solid;
+    align-items: center;
+    width: 48%;
+
+}
+
+.bangladesh>div>img {
+    height: 350px;
+    width: 100%;
+}
+
+.item-6 {
+    flex-grow: 1;
+}
+
+.item-7 {
+    flex-grow: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .destination {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid salmon;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-1 div {
+    width: 49%;
+    gap: 24px;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.box-1 img {
+
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0;
+}
+
+
+.box-2 {
+
+
+    display: flex;
+
+
+}
+
+.box-2>div {
+    width: 49%;
+    height: 286px;
+}
+
+.box-2 img {
+
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .destination-section {
     max-width: 1170px;
