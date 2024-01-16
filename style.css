@@ -464,6 +464,7 @@
 
 .newsletter-container>div {
     width: 48%;
+    border: 1px solid salmon;
 }
 
 .newsletter-container {
@@ -506,6 +507,7 @@
 }
 
 .newsletter-text {
+    flex-direction: row;
     align-items: center;
     text-align: center;
     margin: 0 auto;
