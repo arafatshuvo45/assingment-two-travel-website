@@ -385,13 +385,18 @@
 
 /* perfect place */
 
+
 .perfect-place-container {
+
     display: flex;
+    height: 600px;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    border: 3px solid springgreen;
     justify-content: center;
+}
+
+.perfect-place-container {
+    margin: 100px autol, ;
 }
 
 .perfect-place-container>div {
@@ -400,18 +405,42 @@
 
 .perfect-place-text {
     width: 100%;
-    height: 424px;
+    /* height: 424px; */
     align-items: center;
+}
+
+.perfect-place-text>h2 {
+    width: 448px;
+    margin: 0px auto 24px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
 }
 
 .perfect-place-container>div>img {
     width: 100%;
-    height: 424px;
+    height: 600px;
+}
+
+.perfect-place-text>p {
+    width: 98%;
+    color: #5A5A5D;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.perfect-place-text>ul>li {
+    max-width: 90%;
+    font-size: 18px;
+    gap: 10px;
+
 }
 
 /* news letter */
 
-.newsletter {
+/* .newsletter {
     display: flex;
     justify-content: space-between;
     border: 3px solid salmon;
@@ -420,7 +449,73 @@
 
 .newsletter>div {
     width: 49%;
+} */
+
+/* .input {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    max-width: 80%;
+} */
+
+.newsletter-container>div {
+    width: 48%;
 }
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.newsletter-container h2 {
+    margin-top: 0;
+}
+
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+    width: 70%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 3.5rem;
+
+}
+
+.newsletter-form button {
+    width: 70%;
+    height: 3.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6a00;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.newsletter-text {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.newsletter-form button:hover {
+    background-color: #e65a00;
+}
+
 
 
 /* footer */
