@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+
+
+
+    .navbar {
+        margin: 30px 40px;
+    }
+
+
+
+    .search-inputs {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 23px;
+
+    }
+
+    .navbar-title {
+        font-size: 23px;
+    }
+
+    .search-inputs input,
+    .search-inputs select,
+    .search-inputs button {
+        width: 400px;
+        height: 50px;
+    }
+
+
+    /* tours section */
+    .tours {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .tour-title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+
+    }
+
+    .tour-description {
+        width: 335px;
+        font-size: 14px;
+    }
+
+    .tour-list-item>li {
+        width: 335px;
+        font-size: 14px;
+
+    }
+
+    .tour-description {
+        width: 335px;
+        font-size: 14px;
+
+    }
+
+    .tours-image>img {
+        width: 100%;
+        /* height: 342px; */
+        flex-shrink: 0;
+    }
+
+
+}
