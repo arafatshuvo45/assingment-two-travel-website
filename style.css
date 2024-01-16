@@ -187,7 +187,7 @@ fg .tour-description {
 
 /* destination */
 
-.destination-section {
+/* .destination-section {
     max-width: 1170px;
     margin: 0 auto;
     padding: 50px;
@@ -205,49 +205,9 @@ fg .tour-description {
     margin-bottom: 30px;
 }
 
+
 .destination-grid {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
+    justify-content: space-between;
 
-.destination {
-    flex: 0 1 calc(33.333% - 20px);
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.destination img {
-    width: 100%;
-    display: block;
-    /* Removes bottom space/gap */
-    transition: transform 0.3s ease;
-}
-
-.destination-name {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: white;
-    font-size: 1.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.destination:hover img {
-    transform: scale(1.05);
-}
-
-@media (max-width: 768px) {
-    .destination {
-        flex: 0 1 calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .destination {
-        flex: 0 1 100%;
-
-    }
-}
+} */
