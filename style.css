@@ -176,6 +176,21 @@
     margin: 0 auto;
 }
 
+.item {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
 
 .destination-head {
     width: 1440px;
