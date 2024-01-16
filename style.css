@@ -370,3 +370,14 @@
 .newsletter>div {
     width: 49%;
 }
+
+
+/* footer */
+
+.footer-container {
+    width: 1440px;
+    height: 502px;
+    align-items: center;
+    text-align: center;
+
+}
