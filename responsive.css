@@ -210,4 +210,13 @@
         width: 98%;
     }
 
+    .horizontal-footer {
+        margin: 20px auto;
+    }
+
+    .footer-container {
+        height: 300px;
+    }
+
+
 }
