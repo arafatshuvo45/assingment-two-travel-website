@@ -163,12 +163,25 @@
     .perfect-place-container {
         flex-direction: column;
         gap: 10px;
+        margin: 50px auto 30px auto;
         /* margin-bottom: 100px; */
     }
 
     .perfect-place-container>div {
         width: 100%;
     }
+
+    .perfect-place-text>h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .perfect-place-text>p {
+        font-size: 20px;
+
+    }
+
+
 
     .perfect-place-container>div>img {
         height: auto;
