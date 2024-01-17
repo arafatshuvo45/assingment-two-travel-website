@@ -509,6 +509,47 @@
 }
 
 
+.travel-ad {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.news-letter-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.offer-tag {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    background-color: #ff6a00;
+    padding: 20px;
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.website-name,
+.discount {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.website-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.discount {
+    font-size: 2em;
+}
+
+
 
 /* footer */
 
