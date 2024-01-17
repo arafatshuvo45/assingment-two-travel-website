@@ -430,6 +430,7 @@
 
 }
 
+
 .perfect-place-text>ul>li {
     max-width: 90%;
     font-size: 18px;
@@ -549,6 +550,12 @@
     font-size: 2em;
 }
 
+/*  */
+
+.testimonial>div {
+    width: 20%;
+    background-color: #FFF;
+}
 
 
 /* footer */
